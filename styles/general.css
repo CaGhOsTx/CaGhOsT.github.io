@@ -1,0 +1,20 @@
+.pane {
+    display: grid;
+    text-align: center;
+    border-radius: var(--gl-paneRadius);
+}
+
+*:not(input) {
+    user-select: none;
+}
+
+body {
+    background-color: var(--body-clr);
+    display: grid;
+    height: calc(100vh - var(--gl-margin) * 2);
+    margin: var(--gl-margin);
+    grid-gap: var(--gl-gridGap);
+    grid-template-columns: 1fr 9fr;
+    overflow: hidden;
+}
+

@@ -1,0 +1,55 @@
+#animMenu {
+    display: flow-root;
+    background-color: var(--anim-mn-clr);
+    border-radius: var(--gl-paneRadius);
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+h1 {
+    display: inline-block;
+    color:var(--gl-txt-clr);
+    width: auto;
+    border-bottom: 10px solid var(--gl-txt-clr);
+    margin: 2vh 0.5vw 0.5vh 0.5vw;
+    border-radius: var(--btn-radius);
+}
+.sep {
+    justify-items: baseline;
+    margin: 2vh 1vw 2vh 1vw;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 0.5fr;
+}
+.sep > :not(input, .colorInput) {
+    width: auto;
+    color:var(--gl-txt-clr);
+}
+
+.sep > label {
+    text-align: right;
+}
+.sep > * {
+    font-size: 0.4em;
+}
+.sep > input {
+    border: 2px solid black;
+    
+    width: 80%;
+    margin: auto;
+    border-radius: var(--btn-radius);
+}
+
+.sep > span {
+    text-align: left;
+}
+
+.colorInput {
+    border: 2px solid black;
+    margin: auto;
+    width: 30%;
+    border-radius: var(--btn-radius);
+}
+
+.colorInput > * {
+    opacity: 0;
+}
