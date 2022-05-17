@@ -1,3 +1,5 @@
+# Table of contents
+- [Table of contents](#table-of-contents)
 - [Operating system](#operating-system)
   - [Kernel](#kernel)
   - [Functions of an operating system](#functions-of-an-operating-system)
