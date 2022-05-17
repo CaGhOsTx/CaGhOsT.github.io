@@ -1,6 +1,26 @@
-# CS 240 notes
+- [Operating system](#operating-system)
+  - [Kernel](#kernel)
+  - [Functions of an operating system](#functions-of-an-operating-system)
+- [Process Management](#process-management)
+  - [interrupts](#interrupts)
+- [Process Scheduling](#process-scheduling)
+  - [Process scheduling algorithms](#process-scheduling-algorithms)
+- [Queueing theory](#queueing-theory)
+- [Disk Operation and scheduling](#disk-operation-and-scheduling)
+  - [Hard disks](#hard-disks)
+  - [Solid state drives](#solid-state-drives)
+  - [Metrics](#metrics)
+  - [Scheduling algorithms](#scheduling-algorithms)
+- [Interprocess comunication](#interprocess-comunication)
+  - [booting](#booting)
+  - [Reasons for inter-process communication](#reasons-for-inter-process-communication)
+  - [Inter-process implementation](#inter-process-implementation)
+  - [Unix inter-process communication](#unix-inter-process-communication)
+  - [Sockets](#sockets)
+  - [Remote Procedure call](#remote-procedure-call)
+  - [Unix Message queues](#unix-message-queues)
 
-## Operating system
+# Operating system
 An operating system is a very complex and fundamental software used to abstractify the inner functionality of the hardware of a computer and makes the computer user-friendly.
 - it is a programming platform
     - provides a general API used to speed up development of more specific software
